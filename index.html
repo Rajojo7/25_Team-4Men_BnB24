@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <title>Anti-Corruption Reporting System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Anti-Corruption Reporting System</h1>
+  </header>
+
+  <main>
+    <section id="report-section">
+      <h2>Report a Case</h2>
+      <form id="report-form">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title" required><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" required></textarea><br>
+
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" required><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+    <section id="cases-section">
+      <h2>Reported Cases</h2>
+      <ul id="cases-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Anti-Corruption Reporting System</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
