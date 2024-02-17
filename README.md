@@ -1,0 +1,2 @@
+Problem Statement: Creating a robust anti-
+corruption reporting web/app solution with advanced features requires careful consideration of various factors including security, anonymity, efficiency, and usability. Features such as anonymous reporting, secure communication channels, multiple reporting channels, geo-tagging, evidence upload capability, and a comprehensive case management system are essential.Additionally, incorporating an anonymous messaging system for communication between investigators and whistleblower
